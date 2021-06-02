@@ -1,26 +1,29 @@
 :root {
-    --background: #ffff;
-    --neon-cool: #80ffbf;
-    --space-grey: #666699;
+    --background: #E5E8E8;
+    --neon-cool: #4b93f0;
+    --space-grey: #4b4b79;
+    --tech-blue:#00416A;
+    --header: #09D8A9;
+    --neon-green: #09D8A9;
     
 }
 
 .header {
     display: flex;
-  justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--space-grey);
-    color: var(--neon-cool);
+    color: var(--neon-green);
 }
 
-img {
-    height: 50vh;
-    width: 40vw;
-    
+
+main {
+    background-color: var(--background);
 }
+
 a {
-    color: var(--neon-cool);
+    color: var(--neon-green);
 }
 
 .header h1 {
@@ -31,7 +34,7 @@ a {
 
 
 .header nav {
-   
+    
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -48,22 +51,32 @@ a {
     margin-left: 25px;
 }
 
-
-figure {
-justify-content: center;
-align-items: center;
+ .figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/tw-rise-of-tech.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
-div {
-    display: flex;
-    flex-wrap: wrap;
+.figure img {
+    width: 25%;
+    height: 40%;
+}
+
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 h2 {
     color: var(--neon-cool);
-    text-align: left;
+    text-align: right;
     text-indent: initial;
-
+    font-size: 100px;
+    
 }
 body {
     font-size: 16px;
@@ -71,50 +84,101 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
+}
+
+div .image2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image1 {
+    text-align: center;
+
+}
+
+.image1 header {
+    text-align: left;
+}
+
+.image1 img {
+
+    width: 50vw;
+}
+
+
+.card {
+
+    max-width: 45%;
+    border-width: 1px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+
+.card header {
+    padding: 20px;
+    color: (var(--background));
+}
+
+.card p {
+    text-align: center;
+}
+
+.card img {
+    width: 50rem;
+    display: flex;
+    max-height: 20rem;
+    border: 5px solid var(--space-grey);
+    margin: 10px;
+}
+
+.image2 {
+    display: flex;
+    flex: 4;
+    background-color: var(--background);
+    padding: 20px;
+flex-direction: column;
+    flex-wrap: wrap;
+    
   }
 
+  .column1 {
+      width: 30%;
+      padding: 10px;
+      min-width: 50px;
+      background-color: var(--background);
+  }
 
-/* Creates box for content */
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-   
+  .column2 {
+      border-left: solid;
+      width: 65%;
+      padding: 10px;
+      min-width: 300px;
+      background-color: var(--background);
+  }
+
+  .row {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 992px) {
+   .header {
+       background-color: blue;
+   }
+   .body {
+       flex-direction: column;
+   }
+   img .img1 {
+       width: 100%;
+   }
 }
 
-.box {
-    display: flex;
-    flex: 1 1 70%;
-}
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.container1 {
-    display: block;
-    display: flex;
-    flex: 1 1 30%;
-    
-}
-
-.container2 {
-    flex: 50%;
-    
-    color: var(--space-grey);
-    border: 50px;
-    border: 50px;
-
-}
-
-.img1 {
-    flex: 1 0 70%;
-    border-style: solid;
-
-}
-
-.img {
-    flex: 0 1 30%;
-}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

@@ -12,36 +12,36 @@
 <body>
 
     <header class="header">
+
         <h1>Bradley Boyd</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="">About me</a>
+                    <a href="#About-me">About me</a>
                 </li>
                 <li>
-                    <a href="">Work</a>
+                    <a href="#Work">Work</a>
                 </li>
                 <li>
-                    <a href="">Contact me</a>
+                    <a href="#Contact-me">Contact me</a>
                 </li>
                 <li>
-                    <a href="">Resume</a>
+                    <a href="#Resume">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <figure class="figure">
+    <div class="figure">
         <img src="./assets/img/IMG_0213.jpg" alt="Just me" />
-
-    </figure>
+    </div>
 
     <main>
-        <section class="container">
-            <div class="container1">
+        <div class="row">
+            <section id="About-me" class="column1">
                 <h2>About me</h2>
-            </div>
-            <div class="container2">
+            </section>
+            <section class="column2">
                 <p>
                     My name is Bradley Boyd and I am an up and coming Software Developer. I was born and raised in
                     Houston,
@@ -63,56 +63,65 @@
                     After successfully completing my term at Rice University's Online Coding Bootcamp and receiving my
                     certificate, I plan on continuing my growth in the Software development field.
                 </p>
-            </div>
-        </section>
-        <section class="container">
-            <div class="container1">
+            </section>
+        </div>
+
+
+        <div class="row">
+            <section id="Work" class="column1">
                 <h2>Work</h2>
+            </section>
+
+            <div class="column2">
+                <section class="image1">
+                    <header>Surf Report</header>
+                    <img class="img1" src="./assets/img/codecode.jpeg" alt="surf report">
+                </section>
+
+                <div class="image2">
+                    <section class="card">
+                        <header>LED Wall</header>
+                        <img class="img" src="./assets/img/cover-a1d5b40.png" alt="LED Wall">
+                    </section>
+
+                    <section class="card">
+                        <header>Calculator</header>
+                        <img class="img" src="./assets/img/TRON_MR_fr09.jpeg" alt="Calculator">
+                    </section>
+
+                    <section class="card">
+                        <header>Pastel Puzzels</header>
+                        <img class="img" src="./assets/img/download.jpeg" alt="Pastel puzzels">
+                    </section>
+
+                    <section class="card">
+                        <header>Run Buddy</header>
+                        <img class="img" src="./assets/img/human tech hybrid.jpeg" alt="Run Buddy">
+                    </section>
+
+                </div>
             </div>
-            <div class="box">
-                <div class="container2">
-                    <h3>Surf Report</h3>
-                    <img class="img1" src="./assets/img/codecode.jpeg" alt="surf report"
-                </div>
-
-                <div class="container2">
-                    <h3>LED Wall</h3>
-                    <img class="img" src="./assets/img/cover-a1d5b40.png" alt="LED Wall"
-                </div>
-
-                <div class="container2">
-                    <h3>Calculator</h3>
-                    <img class="img" src="./assets/img/TRON_MR_fr09.jpeg" alt="Calculator"
-                </div>
-
-                <div class="container2">
-                    <h3>Pastel Puzzels</h3>
-                    <img class="img" src="./assets/img/download.jpeg" alt="Pastel puzzels"
-                </div>
-
-                <div class="container2">
-                    <h3>Run Buddy</h3>
-                    <img class="img" src="./assets/img/human tech hybrid.jpeg" alt="Run Buddy"
-                </div>
-                
-            </div>
-        </section>
-        <section class="container1">
-            <div>
+        </div>
+        <div class="row">
+            <section id="Contact-me" class="row">
                 <h2>Contact me</h2>
+            </section>
+            <div class="column2">
+                <ul>
+                    <li>
+                        Phone: 555-555-5555
+                    </li>
+                    <li>
+                        Email: Bboyd146@gmail.com
+                    </li>
+                </ul>
             </div>
-            <ul>
-                <li>
-                    Phone: 555-555-5555
-                </li>
-                <li>
-                    Email: Bboyd146@gmail.com
-                </li>
-            </ul>
-        </section>
-        <section class="container1">
-            <h2>Resume</h2>
-        </section>
+        </div>
+        <div class="row">
+            <section id="Resume" class="row">
+                <h2>Resume</h2>
+            </section>
+        </div>
     </main>
 
     <footer>
