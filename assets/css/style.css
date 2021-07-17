@@ -9,7 +9,7 @@
 }
 
 .header {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,7 +27,7 @@ a {
 }
 
 .header h1 {
-    position: relative;
+    /* position: relative; */
     display: inline-block;
     font-size: 48px;
 }
@@ -37,33 +37,33 @@ a {
     
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    /* float: right; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header nav ul {
+/* .header nav ul {
     list-style-type: none;
 }
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
+} */
 
- .figure {
+ /* .figure {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("../img/tw-rise-of-tech.jpeg");
     background-size: cover;
     background-position: center;
-}
+} */
 
-.figure img {
+/* .figure img {
     width: 25%;
     height: 40%;
-}
+} */
 
 
 p {
@@ -72,19 +72,19 @@ p {
 }
 
 h2 {
-    color: var(--neon-cool);
-    text-align: right;
+    
+    text-align: center;
     text-indent: initial;
-    font-size: 100px;
+    
     
 }
-body {
+/* body {
     font-size: 16px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-}
+} */
 
 div .image2 {
     display: flex;
@@ -128,10 +128,10 @@ div .image2 {
 }
 
 .card img {
-    width: 50rem;
-    display: flex;
+    /* width: 50rem; */
+    /* display: flex; */
     max-height: 20rem;
-    border: 5px solid var(--space-grey);
+    /* border: 5px solid var(--space-grey); */
     margin: 10px;
 }
 
@@ -165,20 +165,10 @@ flex-direction: column;
       justify-content: space-between;
   }
 
-  @media only screen and (max-width: 992px) {
-   .header {
-       background-color: blue;
-   }
-   .body {
-       flex-direction: column;
-   }
-   img .img1 {
-       width: 100%;
-   }
-}
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+
+
+  #me {
+    border-radius: 50%;
+    max-height: 20rem;
   }
