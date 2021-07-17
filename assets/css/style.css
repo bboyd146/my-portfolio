@@ -109,10 +109,11 @@ div .image2 {
 
 .card {
 
-    max-width: 45%;
+
     border-width: 1px;
     margin: 10px;
     padding: 10px;
+    
     
 }
 
@@ -174,3 +175,9 @@ flex-direction: column;
     border-radius: 50%;
     max-height: 20rem;
   }
+
+  .hero {
+	height: 95vh;
+	background: linear-gradient( rgb(239, 243, 243), transparent), linear-gradient( -45deg, rgb(255, 255, 255), transparent), linear-gradient( 45deg, rgb(250, 247, 247), transparent), url(https://img.freepik.com/free-vector/futuristic-tec…ent-background_23-2148338419.jpg?size=626&ext=jpg) center center / cover no-repeat;
+	background-blend-mode: multiply;
+}
