@@ -166,7 +166,9 @@ flex-direction: column;
   }
 
 
-
+.modal {
+    display: none;
+}
 
   #me {
     border-radius: 50%;
