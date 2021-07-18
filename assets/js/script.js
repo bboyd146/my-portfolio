@@ -9,3 +9,8 @@ contactBtn.on('click', function () {
 $('.delete').on('click', function () {
     modal.hide();
 })
+
+// Burger icon 
+$('.navbar-burger').click(function () {
+    $('#navbarMenuHeroC, .navbar-burger').toggleClass('is-active');
+});
